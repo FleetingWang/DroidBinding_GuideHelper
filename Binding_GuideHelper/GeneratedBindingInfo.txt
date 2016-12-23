@@ -1,0 +1,6 @@
+Binding for:
+com.shizhefei:GuideHelper:1.0.5
+
+Dependencies:
+
+GuideHelper-1.0.5.aar,    Path=C:\Users\wtffl\.gradle\caches\modules-2\files-2.1\com.shizhefei\GuideHelper\1.0.5\91bb509fe20bcb1b56f303573dc3beffef9fb251\GuideHelper-1.0.5.aar
