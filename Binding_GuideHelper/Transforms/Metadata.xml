@@ -1,9 +1,9 @@
 <metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+  <!-- method params -->
+  <attr path="/api/package[@name='com.shizhefei.guide']/class[@name='GuideHelper']/method[@name='addPage' and count(parameter)=1 and parameter[1][@type='com.shizhefei.guide.GuideHelper.TipData...']]/parameter[1]" name="managedName">tipDatas</attr>
+  <attr path="/api/package[@name='com.shizhefei.guide']/class[@name='GuideHelper']/method[@name='addPage' and count(parameter)=2 and parameter[1][@type='boolean'] and parameter[2][@type='com.shizhefei.guide.GuideHelper.TipData...']]/parameter[1]" name="managedName">clickDoNext</attr>
+  <attr path="/api/package[@name='com.shizhefei.guide']/class[@name='GuideHelper']/method[@name='addPage' and count(parameter)=2 and parameter[1][@type='boolean'] and parameter[2][@type='com.shizhefei.guide.GuideHelper.TipData...']]/parameter[2]" name="managedName">tipDatas</attr>
+  <attr path="/api/package[@name='com.shizhefei.guide']/class[@name='GuideHelper']/method[@name='addPage' and count(parameter)=3 and parameter[1][@type='boolean'] and parameter[2][@type='android.view.View.OnClickListener'] and parameter[3][@type='com.shizhefei.guide.GuideHelper.TipData...']]/parameter[1]" name="managedName">clickDoNext</attr>
+  <attr path="/api/package[@name='com.shizhefei.guide']/class[@name='GuideHelper']/method[@name='addPage' and count(parameter)=3 and parameter[1][@type='boolean'] and parameter[2][@type='android.view.View.OnClickListener'] and parameter[3][@type='com.shizhefei.guide.GuideHelper.TipData...']]/parameter[2]" name="managedName">onClickPageListener</attr>
+  <attr path="/api/package[@name='com.shizhefei.guide']/class[@name='GuideHelper']/method[@name='addPage' and count(parameter)=3 and parameter[1][@type='boolean'] and parameter[2][@type='android.view.View.OnClickListener'] and parameter[3][@type='com.shizhefei.guide.GuideHelper.TipData...']]/parameter[3]" name="managedName">tipDatas</attr>
 </metadata>
